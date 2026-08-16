@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinguaSphere Academy | Editorial Edition - Find Your Voice In A Global Language</title>
+  <meta name="description" content="Build practical communication skills through structured programs, expert guidance, and engaging classroom experiences designed for every stage of learning.">
+  <meta name="keywords" content="Language Classes, English, French, German, Spanish, Communication Skills, Editorial Language School">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="LinguaSphere Academy | Find Your Voice In A Global Language">
+  <meta property="og:description" content="Structured language programs and modern speech immersion for kids, teens, adults, and professionals.">
+  <meta property="og:type" content="website">
+  
+  <!-- Google Fonts & Bootstrap Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <!-- Core Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/dark-mode.css">
+  <link rel="stylesheet" href="assets/css/rtl.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       SITE HEADER & NAVIGATION
+       ========================================================================= -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="LinguaSphere Academy Home">
+        <div class="logo-icon">
+          <i class="bi bi-globe-americas"></i>
+        </div>
+        <span>LinguaSphere</span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Primary Navigation">
+        <div class="nav-item">
+          <a href="index.html" class="nav-link active">Home <i class="bi bi-chevron-down" style="font-size: 0.75rem;"></i></a>
+          <div class="dropdown-menu">
+            <a href="index.html" class="dropdown-link"><i class="bi bi-stars"></i> Home 1 (Cinematic)</a>
+            <a href="home-2.html" class="dropdown-link active"><i class="bi bi-journal-richtext"></i> Home 2 (Editorial)</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="programs.html" class="nav-link">Programs <i class="bi bi-chevron-down" style="font-size: 0.75rem;"></i></a>
+          <div class="dropdown-menu">
+            <a href="programs.html" class="dropdown-link"><i class="bi bi-grid"></i> All Programs</a>
+            <a href="program-details.html" class="dropdown-link"><i class="bi bi-card-checklist"></i> Program Details</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="batches.html" class="nav-link">Batches</a>
+        </div>
+        <div class="nav-item">
+          <a href="faculty.html" class="nav-link">Faculty <i class="bi bi-chevron-down" style="font-size: 0.75rem;"></i></a>
+          <div class="dropdown-menu">
+            <a href="faculty.html" class="dropdown-link"><i class="bi bi-people"></i> Faculty Roster</a>
+            <a href="faculty-details.html" class="dropdown-link"><i class="bi bi-person-badge"></i> Faculty Profile</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="about.html" class="nav-link">About</a>
+        </div>
+        <div class="nav-item">
+          <a href="testimonials.html" class="nav-link">Testimonials</a>
+        </div>
+        <div class="nav-item">
+          <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <button class="toggle-btn rtl-toggle" aria-label="Toggle RTL/LTR" title="Switch text direction">
+          <span class="rtl-text" style="font-size: 0.75rem; font-weight: 700;">RTL</span>
+        </button>
+        <button class="toggle-btn theme-toggle" aria-label="Toggle Dark/Light Mode" title="Toggle theme">
+          <i class="bi bi-moon-stars-fill"></i>
+        </button>
+        <a href="contact.html" class="btn btn-primary btn-sm d-none-mobile">
+          <span>Enroll Now</span>
+          <i class="bi bi-arrow-right"></i>
+        </a>
+        <button class="hamburger-btn" aria-label="Open mobile navigation menu">
+          <i class="bi bi-list"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Offcanvas Drawer -->
+  <div class="offcanvas-backdrop"></div>
+  <aside class="offcanvas-drawer" aria-label="Mobile Navigation Drawer">
+    <div class="offcanvas-header">
+      <a href="index.html" class="brand-logo">
+        <div class="logo-icon"><i class="bi bi-globe-americas"></i></div>
+        <span>LinguaSphere</span>
+      </a>
+      <button class="offcanvas-close" aria-label="Close navigation"><i class="bi bi-x-lg"></i></button>
+    </div>
+    <div class="offcanvas-body">
+      <nav class="offcanvas-nav">
+        <a href="index.html" class="offcanvas-link">Home 1 (Cinematic) <i class="bi bi-chevron-right"></i></a>
+        <a href="home-2.html" class="offcanvas-link active">Home 2 (Editorial) <i class="bi bi-chevron-right"></i></a>
+        <a href="programs.html" class="offcanvas-link">Programs Catalog <i class="bi bi-chevron-right"></i></a>
+        <a href="program-details.html" class="offcanvas-link">Program Details <i class="bi bi-chevron-right"></i></a>
+        <a href="batches.html" class="offcanvas-link">Batch Schedules <i class="bi bi-chevron-right"></i></a>
+        <a href="faculty.html" class="offcanvas-link">Faculty Team <i class="bi bi-chevron-right"></i></a>
+        <a href="faculty-details.html" class="offcanvas-link">Faculty Profile <i class="bi bi-chevron-right"></i></a>
+        <a href="about.html" class="offcanvas-link">About Institute <i class="bi bi-chevron-right"></i></a>
+        <a href="testimonials.html" class="offcanvas-link">Testimonials <i class="bi bi-chevron-right"></i></a>
+        <a href="contact.html" class="offcanvas-link">Contact & Location <i class="bi bi-chevron-right"></i></a>
+      </nav>
+    </div>
+    <div class="offcanvas-footer">
+      <a href="contact.html" class="btn btn-primary" style="width: 100%;">
+        <span>Enroll Now</span>
+        <i class="bi bi-arrow-right"></i>
+      </a>
+    </div>
+  </aside>
+
+  <main id="main-content">
+    <!-- =========================================================================
+         SECTION 1 — HERO / LANGUAGE DISCOVERY (Editorial Immersion)
+         ========================================================================= -->
+    <section class="hero-home-2">
+      <div class="container">
+        <div class="hero-editorial-grid">
+          <!-- Left: Editorial Typography & CTAs -->
+          <div>
+            <span class="editorial-tagline">LINGUISTIC IMMERSION & SPEECH ACADEMY</span>
+            <h1>Find Your Voice In A Global Language.</h1>
+            <p class="text-lead" style="margin-bottom: 30px;">
+              Build practical communication skills through structured programs, expert guidance, and engaging classroom experiences designed for every stage of learning.
+            </p>
+
+            <div class="btn-group">
+              <a href="programs.html" class="btn btn-primary btn-lg">
+                <span>Explore Language Paths</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              <a href="batches.html" class="btn btn-secondary btn-lg">
+                <span>Find A Batch</span>
+              </a>
+            </div>
+
+            <!-- Horizontal Editorial Language Strip -->
+            <div class="editorial-ribbon">
+              <span class="editorial-ribbon-item">🇬🇧 English CEFR C2</span>
+              <span class="editorial-ribbon-dot"></span>
+              <span class="editorial-ribbon-item">🇫🇷 French DELF B2</span>
+              <span class="editorial-ribbon-dot"></span>
+              <span class="editorial-ribbon-item">🇩🇪 German B1/B2</span>
+              <span class="editorial-ribbon-dot"></span>
+              <span class="editorial-ribbon-item">🇪🇸 Spanish DELE</span>
+            </div>
+          </div>
+
+          <!-- Right: Editorial Image Collage & Overlap Card -->
+          <div class="editorial-gallery">
+            <div class="editorial-image-primary">
+              <img src="assets/images/hero/hero-editorial.jpg" alt="Student practicing speech communication in modern studio" loading="eager" width="800" height="520">
+            </div>
+
+            <div class="editorial-card-overlap">
+              <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 10px;">
+                <div style="width: 36px; height: 36px; border-radius: 8px; background: rgba(13, 148, 136, 0.15); color: var(--color-secondary); display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">
+                  <i class="bi bi-mic-fill"></i>
+                </div>
+                <div>
+                  <h4 style="font-size: 0.95rem; margin: 0;">Speech Studio Lab</h4>
+                  <small style="color: var(--text-light);">Live Active Feedback</small>
+                </div>
+              </div>
+              <p style="font-size: 0.825rem; margin: 0; line-height: 1.5; color: var(--text-muted);">
+                Overcome public speaking anxiety with personalized acoustic and conversational pacing coaching.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 2 — WHY LEARN WITH US (Editorial Value Pillars)
+         ========================================================================= -->
+    <section class="section section-subtle">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow eyebrow-secondary">PEDAGOGICAL EXCELLENCE</span>
+          <h2>A Smarter Architecture For Fluent Communication</h2>
+          <p>We discard rote memorization in favor of dynamic conversation contexts and psychological ease.</p>
+        </div>
+
+        <div class="grid grid-3">
+          <!-- Pillar 1 -->
+          <div class="benefit-card" style="background: var(--bg-surface);">
+            <div class="benefit-icon-box" style="background: rgba(37, 99, 235, 0.1); color: var(--color-primary-accent);">
+              <i class="bi bi-lightning-charge-fill"></i>
+            </div>
+            <h3>70% Active Speaking Ratio</h3>
+            <p>Classrooms are designed as discussion hubs. You speak in target language from your very first 15 minutes of class.</p>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div class="benefit-card" style="background: var(--bg-surface);">
+            <div class="benefit-icon-box" style="background: rgba(13, 148, 136, 0.1); color: var(--color-secondary);">
+              <i class="bi bi-people-fill"></i>
+            </div>
+            <h3>Micro-Cohorts (Max 8-10)</h3>
+            <p>Intentionally small class sizes guarantee individual speaking turns, customized critique, and continuous mentor attention.</p>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div class="benefit-card" style="background: var(--bg-surface);">
+            <div class="benefit-icon-box" style="background: rgba(245, 158, 11, 0.1); color: var(--color-accent-hover);">
+              <i class="bi bi-award-fill"></i>
+            </div>
+            <h3>Exam & Career Certified</h3>
+            <p>100% curriculum alignment with international diplomas: IELTS, TOEFL, DELF, DALF, Goethe-Zertifikat, and DELE.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 3 — LANGUAGE PROGRAMS (Editorial Showcase)
+         ========================================================================= -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">CURATED DISCIPLINES</span>
+          <h2>Explore The Core Language Disciplines</h2>
+          <p>Four world languages taught with academic rigor and modern cultural vibrancy.</p>
+        </div>
+
+        <div class="grid grid-2">
+          <!-- Editorial English Track -->
+          <div class="program-card" style="--card-color: #2563eb; padding: 40px;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
+              <div class="program-flag-badge" style="margin-bottom: 0;">🇬🇧</div>
+              <span class="cefr-badge">Levels A1 to C2</span>
+            </div>
+            <h3>English Communication & Public Speaking</h3>
+            <p class="program-card-desc">
+              Designed for career professionals and students aiming for effortless workplace conversations, international business conferences, and IELTS Band 8+.
+            </p>
+            <div class="program-meta-list">
+              <div class="program-meta-item">
+                <span class="meta-label">Focus Areas:</span>
+                <span class="meta-value">Accent Neutralization, Debate, Leadership</span>
+              </div>
+              <div class="program-meta-item">
+                <span class="meta-label">Duration:</span>
+                <span class="meta-value">8 to 24 Weeks</span>
+              </div>
+            </div>
+            <div style="display: flex; gap: 12px; margin-top: auto;">
+              <a href="program-details.html" class="btn btn-primary btn-sm" style="flex: 1;">View English Syllabus</a>
+              <a href="batches.html" class="btn btn-secondary btn-sm">Batches</a>
+            </div>
+          </div>
+
+          <!-- Editorial French Track -->
+          <div class="program-card" style="--card-color: #0d9488; padding: 40px;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
+              <div class="program-flag-badge" style="margin-bottom: 0;">🇫🇷</div>
+              <span class="cefr-badge">Levels A1 to C1</span>
+            </div>
+            <h3>French Immersion & DELF Mastery</h3>
+            <p class="program-card-desc">
+              From everyday conversational ease to professional Francophone workplace communication, TEF immigration certification, and Parisian cultural nuance.
+            </p>
+            <div class="program-meta-list">
+              <div class="program-meta-item">
+                <span class="meta-label">Focus Areas:</span>
+                <span class="meta-value">DELF A1-B2, Pronunciation, Literature</span>
+              </div>
+              <div class="program-meta-item">
+                <span class="meta-label">Duration:</span>
+                <span class="meta-value">10 to 30 Weeks</span>
+              </div>
+            </div>
+            <div style="display: flex; gap: 12px; margin-top: auto;">
+              <a href="program-details.html" class="btn btn-primary btn-sm" style="flex: 1;">View French Syllabus</a>
+              <a href="batches.html" class="btn btn-secondary btn-sm">Batches</a>
+            </div>
+          </div>
+
+          <!-- Editorial German Track -->
+          <div class="program-card" style="--card-color: #f59e0b; padding: 40px;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
+              <div class="program-flag-badge" style="margin-bottom: 0;">🇩🇪</div>
+              <span class="cefr-badge">Levels A1 to B2</span>
+            </div>
+            <h3>German Academic & Technical Fluency</h3>
+            <p class="program-card-desc">
+              Comprehensive grammar mastery, listening comprehension, and technical vocabulary for university studies and engineering careers in Germany, Austria, and Switzerland.
+            </p>
+            <div class="program-meta-list">
+              <div class="program-meta-item">
+                <span class="meta-label">Focus Areas:</span>
+                <span class="meta-label">Goethe Prep, STEM Vocabulary, B1/B2</span>
+              </div>
+              <div class="program-meta-item">
+                <span class="meta-label">Duration:</span>
+                <span class="meta-value">12 to 32 Weeks</span>
+              </div>
+            </div>
+            <div style="display: flex; gap: 12px; margin-top: auto;">
+              <a href="program-details.html" class="btn btn-primary btn-sm" style="flex: 1;">View German Syllabus</a>
+              <a href="batches.html" class="btn btn-secondary btn-sm">Batches</a>
+            </div>
+          </div>
+
+          <!-- Editorial Spanish Track -->
+          <div class="program-card" style="--card-color: #ef4444; padding: 40px;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
+              <div class="program-flag-badge" style="margin-bottom: 0;">🇪🇸</div>
+              <span class="cefr-badge">Levels A1 to C1</span>
+            </div>
+            <h3>Spanish Conversational & DELE Track</h3>
+            <p class="program-card-desc">
+              Master the vibrant rhythm and global dialect variations of Spanish with rich cultural roleplays, travel scenarios, and DELE exam preparation.
+            </p>
+            <div class="program-meta-list">
+              <div class="program-meta-item">
+                <span class="meta-label">Focus Areas:</span>
+                <span class="meta-value">DELE Certification, Travel Fluency</span>
+              </div>
+              <div class="program-meta-item">
+                <span class="meta-label">Duration:</span>
+                <span class="meta-value">8 to 24 Weeks</span>
+              </div>
+            </div>
+            <div style="display: flex; gap: 12px; margin-top: auto;">
+              <a href="program-details.html" class="btn btn-primary btn-sm" style="flex: 1;">View Spanish Syllabus</a>
+              <a href="batches.html" class="btn btn-secondary btn-sm">Batches</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 4 — LEARNING PATHS (4-Step Fluency Roadmap)
+         ========================================================================= -->
+    <section class="section section-subtle">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow eyebrow-accent">STEP-BY-STEP BLUEPRINT</span>
+          <h2>The Four-Stage Pathway To Spontaneous Fluency</h2>
+          <p>How we take students from hesitant first words to natural, confident international communication.</p>
+        </div>
+
+        <div class="grid grid-4">
+          <!-- Step 1 -->
+          <div class="benefit-card">
+            <div style="font-family: var(--font-display); font-size: 2.5rem; font-weight: 800; color: var(--color-primary-accent); margin-bottom: 12px;">01</div>
+            <h3>Diagnostic Diagnostic</h3>
+            <p>A complimentary 1-on-1 spoken assessment to evaluate your phonetic baseline, vocabulary scope, and individual goals.</p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="benefit-card">
+            <div style="font-family: var(--font-display); font-size: 2.5rem; font-weight: 800; color: var(--color-secondary); margin-bottom: 12px;">02</div>
+            <h3>Immersion Practice</h3>
+            <p>Interactive small cohort classes packed with roleplays, spontaneous debate rounds, and acoustic feedback.</p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="benefit-card">
+            <div style="font-family: var(--font-display); font-size: 2.5rem; font-weight: 800; color: var(--color-accent); margin-bottom: 12px;">03</div>
+            <h3>Real-World Labs</h3>
+            <p>Live simulations: job interviews, academic panels, client pitches, and cultural dinners conducted entirely in your target language.</p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="benefit-card">
+            <div style="font-family: var(--font-display); font-size: 2.5rem; font-weight: 800; color: #10b981; margin-bottom: 12px;">04</div>
+            <h3>Global Certification</h3>
+            <p>Formal graduation with accredited CEFR transcripts and final examination mentorship for official world diplomas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 5 — FACULTY & TEACHING APPROACH (Editorial Feature)
+         ========================================================================= -->
+    <section class="section">
+      <div class="container">
+        <div style="display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 50px; align-items: center;">
+          <div class="hero-main-image-card">
+            <img src="assets/images/hero/about-campus.jpg" alt="Mentors collaborating in LinguaSphere campus atrium" loading="lazy" style="height: 440px;">
+          </div>
+          <div>
+            <span class="eyebrow eyebrow-secondary">PEDAGOGICAL LEADERSHIP</span>
+            <h2>Native Fluency Backed By Certified Pedagogy</h2>
+            <p class="text-lead" style="margin-bottom: 20px;">
+              Fluency alone doesn't make a great instructor. All LinguaSphere mentors hold graduate degrees in linguistics or international certifications like DELTA, CELTA, and Goethe Prüfer.
+            </p>
+            <p style="margin-bottom: 28px;">
+              Our educators act as personal speaking coaches, systematically untangling phonetic blockers and instilling poise through empathetic constructive feedback.
+            </p>
+            <div class="btn-group">
+              <a href="faculty.html" class="btn btn-primary">
+                <span>Meet All Instructors</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              <a href="faculty-details.html" class="btn btn-secondary">
+                <span>Faculty Spotlight</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 6 — STUDENT STORIES (Magazine Case Studies)
+         ========================================================================= -->
+    <section class="section section-subtle">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">CASE STUDIES</span>
+          <h2>Proven Fluency In Action</h2>
+          <p>Real stories of careers accelerated and horizons broadened.</p>
+        </div>
+
+        <div class="grid grid-3">
+          <!-- Story 1 -->
+          <div class="testimonial-card">
+            <span class="eyebrow eyebrow-secondary" style="margin-bottom: 12px;">GERMANY ADMISSION</span>
+            <p class="testimonial-quote">
+              "Moving from zero German to B2 in 8 months felt impossible until I joined the intensive cohort. The structured Goethe mock exams gave me total confidence on exam day."
+            </p>
+            <div class="testimonial-author">
+              <img src="assets/images/faculty/faculty-marcus.jpg" alt="Rohan Verma" class="author-avatar">
+              <div class="author-info">
+                <h4>Rohan Verma</h4>
+                <p>M.Sc. Candidate, RWTH Aachen</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Story 2 -->
+          <div class="testimonial-card">
+            <span class="eyebrow" style="margin-bottom: 12px;">GLOBAL LEADERSHIP</span>
+            <p class="testimonial-quote">
+              "The executive communication lab helped me conquer my accent self-consciousness. I now pitch Fortune 500 stakeholders in London and New York with zero hesitation."
+            </p>
+            <div class="testimonial-author">
+              <img src="assets/images/faculty/faculty-sarah.jpg" alt="Camila Santos" class="author-avatar">
+              <div class="author-info">
+                <h4>Camila Santos</h4>
+                <p>Managing Director, FinTech Global</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Story 3 -->
+          <div class="testimonial-card">
+            <span class="eyebrow eyebrow-accent" style="margin-bottom: 12px;">PARIS EXPEDITION</span>
+            <p class="testimonial-quote">
+              "I wanted to learn French for my art history sabbatical in France. Dr. Antoine's cultural anecdotes and conversational circles made every class an absolute delight."
+            </p>
+            <div class="testimonial-author">
+              <img src="assets/images/faculty/faculty-antoine.jpg" alt="Julian Meyer" class="author-avatar">
+              <div class="author-info">
+                <h4>Julian Meyer</h4>
+                <p>Architect & Cultural Researcher</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 7 — ENROLLMENT CTA (Editorial Full Banner)
+         ========================================================================= -->
+    <section class="enrollment-cta-section">
+      <div class="container">
+        <div class="cta-content-box">
+          <span class="eyebrow" style="background: rgba(255,255,255,0.12); color: #ffffff;">LIMITED SEATS PER BATCH</span>
+          <h2>Begin Your Global Conversation Today</h2>
+          <p>
+            Book your free 20-minute language diagnostic session and find the perfect batch schedule for your calendar.
+          </p>
+          <div class="btn-group" style="justify-content: center;">
+            <a href="contact.html" class="btn btn-accent btn-lg">
+              <span>Book Free Level Evaluation</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+            <a href="batches.html" class="btn btn-outline-white btn-lg">
+              <span>View Batch Timings</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       SITE FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <div class="logo-icon"><i class="bi bi-globe-americas"></i></div>
+            <span>LinguaSphere</span>
+          </a>
+          <p class="footer-desc">
+            Empowering global citizens through certified language training, speech mastery, and cross-cultural communication excellence.
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="social-icon" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="social-icon" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="social-icon" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="about.html" class="footer-link">About Us</a></li>
+            <li><a href="programs.html" class="footer-link">All Programs</a></li>
+            <li><a href="batches.html" class="footer-link">Batch Schedules</a></li>
+            <li><a href="faculty.html" class="footer-link">Faculty Directory</a></li>
+            <li><a href="testimonials.html" class="footer-link">Student Reviews</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Language Programs</h4>
+          <ul class="footer-links">
+            <li><a href="program-details.html" class="footer-link">English for Professionals</a></li>
+            <li><a href="program-details.html" class="footer-link">French (DELF A1 - C1)</a></li>
+            <li><a href="program-details.html" class="footer-link">German (Goethe A1 - B2)</a></li>
+            <li><a href="program-details.html" class="footer-link">Spanish (DELE A1 - C1)</a></li>
+            <li><a href="program-details.html" class="footer-link">Public Speaking & Debate</a></li>
+            <li><a href="coming-soon.html" class="footer-link">Summer Immersion Camp '26</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contact & Updates</h4>
+          <p class="footer-desc" style="margin-bottom: 12px;">
+            <i class="bi bi-geo-alt-fill text-primary" style="margin-right: 6px;"></i> 450 Lexington Ave, New York, NY 10017<br>
+            <i class="bi bi-telephone-fill text-primary" style="margin-right: 6px;"></i> +1 (800) 584-2638<br>
+            <i class="bi bi-envelope-fill text-primary" style="margin-right: 6px;"></i> admissions@linguasphere.edu
+          </p>
+          <form class="footer-newsletter-form needs-validation" novalidate>
+            <input type="email" class="footer-newsletter-input" placeholder="Enter your email" required aria-label="Newsletter email subscription">
+            <button type="submit" class="btn btn-primary btn-sm" style="padding: 0 16px;">
+              <i class="bi bi-send-fill"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Language Classes & Communication Skills Center. All Rights Reserved.</p>
+        <div class="footer-legal-links">
+          <a href="contact.html">Privacy Policy</a>
+          <a href="contact.html">Terms & Conditions</a>
+          <a href="contact.html">Accessibility</a>
+          <a href="404.html">Site Map</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Scroll back to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

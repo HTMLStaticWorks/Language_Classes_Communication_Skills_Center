@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://linguasphere.edu/sitemap.xml

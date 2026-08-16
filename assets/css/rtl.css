@@ -1,0 +1,104 @@
+/* ==========================================================================
+   LINGUASPHERE ACADEMY - RTL (RIGHT-TO-LEFT) STYLESHEET
+   Comprehensive Bidirectional Support (Arabic, Hebrew)
+   ========================================================================== */
+
+[dir="rtl"] {
+  text-align: right;
+  direction: rtl;
+}
+
+/* Base Typographic & Margin Mirroring */
+[dir="rtl"] .section-header.text-start {
+  text-align: right;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+/* Nav Menu & Dropdowns */
+[dir="rtl"] .brand-logo {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .dropdown-menu {
+  left: auto;
+  right: -16px;
+  text-align: right;
+}
+
+[dir="rtl"] .nav-link::after {
+  left: auto;
+  right: 0;
+}
+
+/* Offcanvas Mobile Navigation Drawer (Slides from Left in RTL) */
+[dir="rtl"] .offcanvas-drawer {
+  right: auto;
+  left: 0;
+  transform: translateX(-100%);
+  border-left: none;
+  border-right: 1px solid var(--border-color);
+}
+
+[dir="rtl"] .offcanvas-drawer.show {
+  transform: translateX(0);
+}
+
+/* Hero Section Floating Badges */
+[dir="rtl"] .floating-badge-1 {
+  left: auto;
+  right: -25px;
+}
+
+[dir="rtl"] .floating-badge-2 {
+  right: auto;
+  left: -20px;
+}
+
+/* Editorial Overlapping Card */
+[dir="rtl"] .editorial-card-overlap {
+  left: auto;
+  right: -30px;
+}
+
+/* Faculty Badges & Cards */
+[dir="rtl"] .faculty-badge-overlay {
+  left: auto;
+  right: 12px;
+}
+
+/* Icons and Arrows Mirroring */
+[dir="rtl"] .btn i,
+[dir="rtl"] .nav-link i,
+[dir="rtl"] .dropdown-link i {
+  transform: scaleX(-1);
+}
+
+/* Comparison Table */
+[dir="rtl"] .comparison-table {
+  text-align: right;
+}
+
+/* Forms & Text Fields */
+[dir="rtl"] .form-control,
+[dir="rtl"] .form-select {
+  text-align: right;
+}
+
+/* Footer Link Hover Padding */
+[dir="rtl"] .footer-link:hover {
+  padding-left: 0;
+  padding-right: 4px;
+}
+
+/* Back to Top Button */
+[dir="rtl"] .back-to-top {
+  right: auto;
+  left: 24px;
+}
+
+/* Toast Notifications */
+[dir="rtl"] .toast-notification {
+  right: auto;
+  left: 30px;
+}

@@ -1,0 +1,234 @@
+/* ==========================================================================
+   LINGUASPHERE ACADEMY - DARK MODE SYSTEM
+   High Contrast • WCAG 2.1 AA Compliant • Sleek Modern Palette
+   ========================================================================== */
+
+[data-theme="dark"] {
+  /* Surface & Background Palette */
+  --bg-body: #0b0f19;
+  --bg-surface: #131b2e;
+  --bg-surface-elevated: #1e293b;
+  --bg-surface-subtle: #0f172a;
+  --bg-alt: #0e1424;
+
+  /* Typography & High Optical Contrast */
+  --text-main: #f8fafc;
+  --text-muted: #cbd5e1;
+  --text-light: #94a3b8;
+  --text-inverse: #0f172a;
+
+  /* Borders & Dividers */
+  --border-color: #1e293b;
+  --border-color-hover: #334155;
+  --border-focus: #3b82f6;
+
+  /* Card and Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.6), 0 4px 6px -4px rgba(0, 0, 0, 0.4);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.7), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+
+  /* Primary Accent Adjustments */
+  --color-secondary-surface: rgba(13, 148, 136, 0.15);
+  --color-accent-surface: rgba(245, 158, 11, 0.15);
+}
+
+/* Header & Navigation in Dark Mode */
+[data-theme="dark"] .site-header {
+  background-color: rgba(11, 15, 25, 0.85);
+  border-bottom-color: var(--border-color);
+}
+
+[data-theme="dark"] .site-header.scrolled {
+  background-color: rgba(11, 15, 25, 0.96);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+[data-theme="dark"] .brand-logo {
+  color: #ffffff;
+}
+
+[data-theme="dark"] .nav-link {
+  color: #e2e8f0;
+}
+
+[data-theme="dark"] .nav-link:hover,
+[data-theme="dark"] .nav-link.active {
+  color: #60a5fa;
+}
+
+[data-theme="dark"] .dropdown-menu {
+  background-color: #131b2e;
+  border-color: #1e293b;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
+}
+
+[data-theme="dark"] .dropdown-link {
+  color: #cbd5e1;
+}
+
+[data-theme="dark"] .dropdown-link:hover,
+[data-theme="dark"] .dropdown-link.active {
+  background-color: #1e293b;
+  color: #60a5fa;
+}
+
+/* Offcanvas in Dark Mode */
+[data-theme="dark"] .offcanvas-drawer {
+  background-color: #131b2e;
+  border-left: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .offcanvas-link {
+  color: #e2e8f0;
+}
+
+[data-theme="dark"] .offcanvas-link:hover,
+[data-theme="dark"] .offcanvas-link.active {
+  background-color: #1e293b;
+  color: #60a5fa;
+}
+
+/* Hero Section in Dark Mode */
+[data-theme="dark"] .hero-home-1 {
+  background: radial-gradient(circle at 80% 20%, rgba(37, 99, 235, 0.12) 0%, transparent 60%),
+              radial-gradient(circle at 10% 80%, rgba(13, 148, 136, 0.1) 0%, transparent 50%),
+              #0b0f19;
+}
+
+[data-theme="dark"] .floating-badge {
+  background: rgba(19, 27, 46, 0.92);
+  border-color: #334155;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+}
+
+[data-theme="dark"] .hero-stat-item h4 {
+  color: #ffffff;
+}
+
+/* Secondary Button in Dark Mode */
+[data-theme="dark"] .btn-secondary {
+  background-color: #131b2e;
+  color: #f8fafc;
+  border-color: #334155;
+}
+
+[data-theme="dark"] .btn-secondary:hover {
+  background-color: #1e293b;
+  border-color: #60a5fa;
+  color: #60a5fa;
+}
+
+/* Editorial Ribbon & Overlap */
+[data-theme="dark"] .editorial-ribbon {
+  background-color: #131b2e;
+  border-color: #334155;
+}
+
+[data-theme="dark"] .editorial-card-overlap {
+  background-color: #131b2e;
+  border-color: #334155;
+}
+
+/* Program Cards, Benefit Cards & Learner Cards */
+[data-theme="dark"] .program-card,
+[data-theme="dark"] .benefit-card,
+[data-theme="dark"] .learner-card,
+[data-theme="dark"] .faculty-card,
+[data-theme="dark"] .batch-card,
+[data-theme="dark"] .testimonial-card,
+[data-theme="dark"] .accordion-item {
+  background-color: #131b2e;
+  border-color: #1e293b;
+}
+
+[data-theme="dark"] .program-card:hover,
+[data-theme="dark"] .benefit-card:hover,
+[data-theme="dark"] .learner-card:hover,
+[data-theme="dark"] .faculty-card:hover,
+[data-theme="dark"] .batch-card:hover,
+[data-theme="dark"] .testimonial-card:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.6);
+}
+
+[data-theme="dark"] .program-flag-badge {
+  background-color: #0f172a;
+  border-color: #334155;
+}
+
+[data-theme="dark"] .cefr-badge {
+  background-color: #1e293b;
+  border-color: #334155;
+  color: #60a5fa;
+}
+
+/* Batches & Comparison Table in Dark Mode */
+[data-theme="dark"] .batch-filter-btn {
+  background-color: #131b2e;
+  border-color: #334155;
+  color: #cbd5e1;
+}
+
+[data-theme="dark"] .batch-filter-btn:hover,
+[data-theme="dark"] .batch-filter-btn.active {
+  background-color: #2563eb;
+  border-color: #2563eb;
+  color: #ffffff;
+}
+
+[data-theme="dark"] .table-responsive {
+  background-color: #131b2e;
+  border-color: #1e293b;
+}
+
+[data-theme="dark"] .comparison-table th {
+  background-color: #0f172a;
+  color: #f8fafc;
+  border-bottom-color: #1e293b;
+}
+
+[data-theme="dark"] .comparison-table td {
+  border-bottom-color: #1e293b;
+  color: #cbd5e1;
+}
+
+/* Forms & Inputs in Dark Mode */
+[data-theme="dark"] .form-card {
+  background-color: #131b2e;
+  border-color: #1e293b;
+}
+
+[data-theme="dark"] .form-control,
+[data-theme="dark"] .form-select {
+  background-color: #0b0f19;
+  border-color: #334155;
+  color: #f8fafc;
+}
+
+[data-theme="dark"] .form-control:focus,
+[data-theme="dark"] .form-select:focus {
+  background-color: #0f172a;
+  border-color: #3b82f6;
+}
+
+[data-theme="dark"] .form-select option {
+  background-color: #131b2e;
+  color: #f8fafc;
+}
+
+/* Utility Toggles in Dark Mode */
+[data-theme="dark"] .toggle-btn,
+[data-theme="dark"] .hamburger-btn,
+[data-theme="dark"] .offcanvas-close {
+  background-color: #1e293b;
+  border-color: #334155;
+  color: #f8fafc;
+}
+
+[data-theme="dark"] .toggle-btn:hover,
+[data-theme="dark"] .hamburger-btn:hover {
+  background-color: #334155;
+  border-color: #60a5fa;
+  color: #60a5fa;
+}

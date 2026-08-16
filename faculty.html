@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faculty Directory | LinguaSphere Academy - World-Class Language Mentors</title>
+  <meta name="description" content="Meet our certified native and bilingual faculty specializing in English, French, German, and Spanish conversational pedagogy and exam preparation.">
+  <meta name="keywords" content="Language Faculty, Certified Instructors, Native Language Teachers, DELF Examiners, Goethe Certified Faculty">
+  
+  <meta property="og:title" content="Faculty Directory | LinguaSphere Academy">
+  <meta property="og:description" content="Certified native and bilingual language mentors dedicated to your speaking confidence.">
+  <meta property="og:type" content="website">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/dark-mode.css">
+  <link rel="stylesheet" href="assets/css/rtl.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="LinguaSphere Academy Home">
+        <div class="logo-icon"><i class="bi bi-globe-americas"></i></div>
+        <span>LinguaSphere</span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Primary Navigation">
+        <div class="nav-item">
+          <a href="index.html" class="nav-link">Home <i class="bi bi-chevron-down" style="font-size: 0.75rem;"></i></a>
+          <div class="dropdown-menu">
+            <a href="index.html" class="dropdown-link"><i class="bi bi-stars"></i> Home 1 (Cinematic)</a>
+            <a href="home-2.html" class="dropdown-link"><i class="bi bi-journal-richtext"></i> Home 2 (Editorial)</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="programs.html" class="nav-link">Programs <i class="bi bi-chevron-down" style="font-size: 0.75rem;"></i></a>
+          <div class="dropdown-menu">
+            <a href="programs.html" class="dropdown-link"><i class="bi bi-grid"></i> All Programs</a>
+            <a href="program-details.html" class="dropdown-link"><i class="bi bi-card-checklist"></i> Program Details</a>
+          </div>
+        </div>
+        <div class="nav-item"><a href="batches.html" class="nav-link">Batches</a></div>
+        <div class="nav-item">
+          <a href="faculty.html" class="nav-link active">Faculty <i class="bi bi-chevron-down" style="font-size: 0.75rem;"></i></a>
+          <div class="dropdown-menu">
+            <a href="faculty.html" class="dropdown-link active"><i class="bi bi-people"></i> Faculty Roster</a>
+            <a href="faculty-details.html" class="dropdown-link"><i class="bi bi-person-badge"></i> Faculty Profile</a>
+          </div>
+        </div>
+        <div class="nav-item"><a href="about.html" class="nav-link">About</a></div>
+        <div class="nav-item"><a href="testimonials.html" class="nav-link">Testimonials</a></div>
+        <div class="nav-item"><a href="contact.html" class="nav-link">Contact</a></div>
+      </nav>
+
+      <div class="header-actions">
+        <button class="toggle-btn rtl-toggle" aria-label="Toggle RTL/LTR" title="Switch text direction"><span class="rtl-text" style="font-size: 0.75rem; font-weight: 700;">RTL</span></button>
+        <button class="toggle-btn theme-toggle" aria-label="Toggle Dark/Light Mode" title="Toggle theme"><i class="bi bi-moon-stars-fill"></i></button>
+        <a href="contact.html" class="btn btn-primary btn-sm d-none-mobile"><span>Enroll Now</span><i class="bi bi-arrow-right"></i></a>
+        <button class="hamburger-btn" aria-label="Open mobile navigation menu"><i class="bi bi-list"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="offcanvas-backdrop"></div>
+  <aside class="offcanvas-drawer" aria-label="Mobile Navigation Drawer">
+    <div class="offcanvas-header">
+      <a href="index.html" class="brand-logo"><div class="logo-icon"><i class="bi bi-globe-americas"></i></div><span>LinguaSphere</span></a>
+      <button class="offcanvas-close" aria-label="Close navigation"><i class="bi bi-x-lg"></i></button>
+    </div>
+    <div class="offcanvas-body">
+      <nav class="offcanvas-nav">
+        <a href="index.html" class="offcanvas-link">Home 1 (Cinematic) <i class="bi bi-chevron-right"></i></a>
+        <a href="home-2.html" class="offcanvas-link">Home 2 (Editorial) <i class="bi bi-chevron-right"></i></a>
+        <a href="programs.html" class="offcanvas-link">Programs Catalog <i class="bi bi-chevron-right"></i></a>
+        <a href="program-details.html" class="offcanvas-link">Program Details <i class="bi bi-chevron-right"></i></a>
+        <a href="batches.html" class="offcanvas-link">Batch Schedules <i class="bi bi-chevron-right"></i></a>
+        <a href="faculty.html" class="offcanvas-link active">Faculty Team <i class="bi bi-chevron-right"></i></a>
+        <a href="faculty-details.html" class="offcanvas-link">Faculty Profile <i class="bi bi-chevron-right"></i></a>
+        <a href="about.html" class="offcanvas-link">About Institute <i class="bi bi-chevron-right"></i></a>
+        <a href="testimonials.html" class="offcanvas-link">Testimonials <i class="bi bi-chevron-right"></i></a>
+        <a href="contact.html" class="offcanvas-link">Contact & Location <i class="bi bi-chevron-right"></i></a>
+      </nav>
+    </div>
+    <div class="offcanvas-footer">
+      <a href="contact.html" class="btn btn-primary" style="width: 100%;"><span>Enroll Now</span><i class="bi bi-arrow-right"></i></a>
+    </div>
+  </aside>
+
+  <main id="main-content">
+    <!-- =========================================================================
+         SECTION 1 — FACULTY HERO
+         ========================================================================= -->
+    <section class="hero-home-1" style="padding-bottom: 50px;">
+      <div class="container">
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+          <div style="font-size: 0.875rem; color: var(--text-light); margin-bottom: 12px;">
+            <a href="index.html" style="color: var(--color-primary-accent);">Home</a> / <span>Faculty Directory</span>
+          </div>
+          <span class="eyebrow"><i class="bi bi-person-workspace"></i> ACADEMIC EXCELLENCE</span>
+          <h1>Meet Our Distinguished International Faculty</h1>
+          <p class="text-lead">
+            Certified educators, linguistics researchers, and official exam examiners dedicated to unlocking your authentic voice in any language.
+          </p>
+
+          <!-- Language Filter Tabs -->
+          <div class="batch-filter-bar" style="margin-top: 30px; margin-bottom: 0;">
+            <button class="batch-filter-btn active" data-filter="all">All Mentors</button>
+            <button class="batch-filter-btn" data-filter="english">🇬🇧 English</button>
+            <button class="batch-filter-btn" data-filter="french">🇫🇷 French</button>
+            <button class="batch-filter-btn" data-filter="german">🇩🇪 German</button>
+            <button class="batch-filter-btn" data-filter="spanish">🇪🇸 Spanish</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 2 — FACULTY GRID
+         ========================================================================= -->
+    <section class="section">
+      <div class="container">
+        <div class="grid grid-4">
+          <!-- Mentor 1: Sarah (English) -->
+          <div class="faculty-card" data-category="english">
+            <div class="faculty-image-box">
+              <img src="assets/images/faculty/faculty-sarah.jpg" alt="Sarah Jenkins" loading="lazy">
+              <span class="faculty-badge-overlay">🇬🇧 Lead English Mentor</span>
+            </div>
+            <div class="faculty-card-body">
+              <h3 class="faculty-name">Sarah Jenkins, M.A.</h3>
+              <div class="faculty-role">Business English & Accent Coach</div>
+              <p class="faculty-quals">11+ years • Cambridge DELTA Certified • Former BBC Speech Coach</p>
+              <a href="faculty-details.html" class="btn btn-secondary btn-sm" style="width: 100%;">View Mentor Bio</a>
+            </div>
+          </div>
+
+          <!-- Mentor 2: Antoine (French) -->
+          <div class="faculty-card" data-category="french">
+            <div class="faculty-image-box">
+              <img src="assets/images/faculty/faculty-antoine.jpg" alt="Dr. Antoine Laurent" loading="lazy">
+              <span class="faculty-badge-overlay">🇫🇷 Native French Professor</span>
+            </div>
+            <div class="faculty-card-body">
+              <h3 class="faculty-name">Dr. Antoine Laurent</h3>
+              <div class="faculty-role">Linguistics & DELF Examiner</div>
+              <p class="faculty-quals">14+ years • Sorbonne University • Official DELF/DALF Master Trainer</p>
+              <a href="faculty-details.html" class="btn btn-secondary btn-sm" style="width: 100%;">View Mentor Bio</a>
+            </div>
+          </div>
+
+          <!-- Mentor 3: Marcus (German) -->
+          <div class="faculty-card" data-category="german">
+            <div class="faculty-image-box">
+              <img src="assets/images/faculty/faculty-marcus.jpg" alt="Marcus Weber" loading="lazy">
+              <span class="faculty-badge-overlay">🇩🇪 Lead German Specialist</span>
+            </div>
+            <div class="faculty-card-body">
+              <h3 class="faculty-name">Marcus Weber</h3>
+              <div class="faculty-role">Higher Studies & Technical German</div>
+              <p class="faculty-quals">10+ years • Goethe-Institut Alum • STEM Vocabulary Specialist</p>
+              <a href="faculty-details.html" class="btn btn-secondary btn-sm" style="width: 100%;">View Mentor Bio</a>
+            </div>
+          </div>
+
+          <!-- Mentor 4: Elena (Spanish) -->
+          <div class="faculty-card" data-category="spanish">
+            <div class="faculty-image-box">
+              <img src="assets/images/faculty/faculty-elena.jpg" alt="Elena Rodriguez" loading="lazy">
+              <span class="faculty-badge-overlay">🇪🇸 Spanish & DELE Lead</span>
+            </div>
+            <div class="faculty-card-body">
+              <h3 class="faculty-name">Elena Rodriguez</h3>
+              <div class="faculty-role">Spanish Conversational Mastery</div>
+              <p class="faculty-quals">9+ years • Universidad de Salamanca • Certified DELE Lead</p>
+              <a href="faculty-details.html" class="btn btn-secondary btn-sm" style="width: 100%;">View Mentor Bio</a>
+            </div>
+          </div>
+
+          <!-- Mentor 5: Michael (English & Debate) -->
+          <div class="faculty-card" data-category="english">
+            <div class="faculty-image-box">
+              <img src="assets/images/faculty/faculty-marcus.jpg" alt="Michael Chang" loading="lazy">
+              <span class="faculty-badge-overlay">🇺🇸 Public Speaking & Debate</span>
+            </div>
+            <div class="faculty-card-body">
+              <h3 class="faculty-name">Michael Chang, J.D.</h3>
+              <div class="faculty-role">Debate & Executive Rhetoric</div>
+              <p class="faculty-quals">8+ years • Oxford Union Finalist • International Speech Coach</p>
+              <a href="faculty-details.html" class="btn btn-secondary btn-sm" style="width: 100%;">View Mentor Bio</a>
+            </div>
+          </div>
+
+          <!-- Mentor 6: Claire (French for Kids) -->
+          <div class="faculty-card" data-category="french">
+            <div class="faculty-image-box">
+              <img src="assets/images/faculty/faculty-sarah.jpg" alt="Claire Dubois" loading="lazy">
+              <span class="faculty-badge-overlay">🇫🇷 Youth French Specialist</span>
+            </div>
+            <div class="faculty-card-body">
+              <h3 class="faculty-name">Claire Dubois</h3>
+              <div class="faculty-role">Early Childhood Bilingualism</div>
+              <p class="faculty-quals">7+ years • Institut Français • Play-Based Phonics Expert</p>
+              <a href="faculty-details.html" class="btn btn-secondary btn-sm" style="width: 100%;">View Mentor Bio</a>
+            </div>
+          </div>
+
+          <!-- Mentor 7: Hans (German Exam Prep) -->
+          <div class="faculty-card" data-category="german">
+            <div class="faculty-image-box">
+              <img src="assets/images/faculty/faculty-antoine.jpg" alt="Hans Lindner" loading="lazy">
+              <span class="faculty-badge-overlay">🇦🇹 German TestDaF Master</span>
+            </div>
+            <div class="faculty-card-body">
+              <h3 class="faculty-name">Hans Lindner</h3>
+              <div class="faculty-role">TestDaF & Medical German</div>
+              <p class="faculty-quals">12+ years • University of Vienna • Fachsprachprüfung Trainer</p>
+              <a href="faculty-details.html" class="btn btn-secondary btn-sm" style="width: 100%;">View Mentor Bio</a>
+            </div>
+          </div>
+
+          <!-- Mentor 8: Sofia (Spanish for Business) -->
+          <div class="faculty-card" data-category="spanish">
+            <div class="faculty-image-box">
+              <img src="assets/images/faculty/faculty-elena.jpg" alt="Sofia Morales" loading="lazy">
+              <span class="faculty-badge-overlay">🇲🇽 Latin American Business</span>
+            </div>
+            <div class="faculty-card-body">
+              <h3 class="faculty-name">Sofia Morales</h3>
+              <div class="faculty-role">Cross-Border Trade Spanish</div>
+              <p class="faculty-quals">9+ years • UNAM Mexico City • Corporate Negotiation Coach</p>
+              <a href="faculty-details.html" class="btn btn-secondary btn-sm" style="width: 100%;">View Mentor Bio</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 3 — TEACHING EXPERTISE & ACCREDITATIONS
+         ========================================================================= -->
+    <section class="section section-subtle">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow eyebrow-secondary">RIGOROUS STANDARDS</span>
+          <h2>Global Certifications & Pedagogical Standards</h2>
+          <p>Every mentor undergoes continuous peer review and pedagogical training.</p>
+        </div>
+
+        <div class="grid grid-4">
+          <div class="benefit-card" style="background: var(--bg-surface);">
+            <div class="benefit-icon-box" style="color: #2563eb;"><i class="bi bi-shield-lock"></i></div>
+            <h3>Cambridge DELTA / CELTA</h3>
+            <p>Our English faculty holds the gold standard in second-language instruction and speech therapy.</p>
+          </div>
+
+          <div class="benefit-card" style="background: var(--bg-surface);">
+            <div class="benefit-icon-box" style="color: #0d9488;"><i class="bi bi-patch-check"></i></div>
+            <h3>DELF / DALF Accredited</h3>
+            <p>Certified examiners authorized by France Éducation International to evaluate A1 through C2 exams.</p>
+          </div>
+
+          <div class="benefit-card" style="background: var(--bg-surface);">
+            <div class="benefit-icon-box" style="color: #f59e0b;"><i class="bi bi-award"></i></div>
+            <h3>Goethe Prüferlizenz</h3>
+            <p>Authorized German test administrators with deep mastery of TestDaF and Goethe exam rubrics.</p>
+          </div>
+
+          <div class="benefit-card" style="background: var(--bg-surface);">
+            <div class="benefit-icon-box" style="color: #ef4444;"><i class="bi bi-trophy"></i></div>
+            <h3>Instituto Cervantes DELE</h3>
+            <p>Master trainers accredited for official Spanish diplomas and Latin American cultural immersion.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 4 — WHY LEARN FROM OUR FACULTY
+         ========================================================================= -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow eyebrow-accent">THE FACULTY DIFFERENCE</span>
+          <h2>Why Learn From Our Mentors?</h2>
+          <p>What sets LinguaSphere instructors apart from ordinary tutoring centers.</p>
+        </div>
+
+        <div class="grid grid-4">
+          <div class="benefit-card">
+            <div class="benefit-icon-box"><i class="bi bi-chat-left-dots"></i></div>
+            <h3>Native Intuition</h3>
+            <p>Learn idioms, natural cadence, and everyday slang that only true native-level speakers understand.</p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon-box"><i class="bi bi-emoji-smile"></i></div>
+            <h3>Empathetic Coaching</h3>
+            <p>We celebrate effort and turn awkward stumbles into rapid learning breakthroughs without embarrassment.</p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon-box"><i class="bi bi-puzzle"></i></div>
+            <h3>Dynamic Speaking Games</h3>
+            <p>Interactive scenarios keep classes energizing and make complex grammar rules memorable.</p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon-box"><i class="bi bi-briefcase"></i></div>
+            <h3>Corporate Case Studies</h3>
+            <p>Industry-specific simulations prepare professionals for high-stakes business pitches and negotiations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 5 — CTA (Meet Your Future Mentor)
+         ========================================================================= -->
+    <section class="enrollment-cta-section">
+      <div class="container">
+        <div class="cta-content-box">
+          <span class="eyebrow" style="background: rgba(255,255,255,0.12); color: #ffffff;">FREE 1-ON-1 TRIAL</span>
+          <h2>Meet Your Future Language Mentor</h2>
+          <p>Book a complimentary 20-minute spoken diagnostic session with one of our certified instructors.</p>
+          <div class="btn-group" style="justify-content: center;">
+            <a href="contact.html" class="btn btn-accent btn-lg"><span>Book Free Level Evaluation</span><i class="bi bi-arrow-right"></i></a>
+            <a href="batches.html" class="btn btn-outline-white btn-lg"><span>View Batch Schedules</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo"><div class="logo-icon"><i class="bi bi-globe-americas"></i></div><span>LinguaSphere</span></a>
+          <p class="footer-desc">Empowering global citizens through certified language training, speech mastery, and cross-cultural communication excellence.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="social-icon" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="social-icon" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="social-icon" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="about.html" class="footer-link">About Us</a></li>
+            <li><a href="programs.html" class="footer-link">All Programs</a></li>
+            <li><a href="batches.html" class="footer-link">Batch Schedules</a></li>
+            <li><a href="faculty.html" class="footer-link">Faculty Directory</a></li>
+            <li><a href="testimonials.html" class="footer-link">Student Reviews</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">Language Programs</h4>
+          <ul class="footer-links">
+            <li><a href="program-details.html" class="footer-link">English for Professionals</a></li>
+            <li><a href="program-details.html" class="footer-link">French (DELF A1 - C1)</a></li>
+            <li><a href="program-details.html" class="footer-link">German (Goethe A1 - B2)</a></li>
+            <li><a href="program-details.html" class="footer-link">Spanish (DELE A1 - C1)</a></li>
+            <li><a href="program-details.html" class="footer-link">Public Speaking & Debate</a></li>
+            <li><a href="coming-soon.html" class="footer-link">Summer Immersion Camp '26</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">Contact & Updates</h4>
+          <p class="footer-desc" style="margin-bottom: 12px;">
+            <i class="bi bi-geo-alt-fill text-primary" style="margin-right: 6px;"></i> 450 Lexington Ave, New York, NY 10017<br>
+            <i class="bi bi-telephone-fill text-primary" style="margin-right: 6px;"></i> +1 (800) 584-2638<br>
+            <i class="bi bi-envelope-fill text-primary" style="margin-right: 6px;"></i> admissions@linguasphere.edu
+          </p>
+          <form class="footer-newsletter-form needs-validation" novalidate>
+            <input type="email" class="footer-newsletter-input" placeholder="Enter your email" required aria-label="Newsletter email subscription">
+            <button type="submit" class="btn btn-primary btn-sm" style="padding: 0 16px;"><i class="bi bi-send-fill"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Language Classes & Communication Skills Center. All Rights Reserved.</p>
+        <div class="footer-legal-links">
+          <a href="contact.html">Privacy Policy</a>
+          <a href="contact.html">Terms & Conditions</a>
+          <a href="contact.html">Accessibility</a>
+          <a href="404.html">Site Map</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Scroll back to top"><i class="bi bi-arrow-up"></i></button>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
