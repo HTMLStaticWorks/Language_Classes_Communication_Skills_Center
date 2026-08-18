@@ -84,18 +84,29 @@
       <nav class="offcanvas-nav">
         <a href="index.html" class="offcanvas-link">Home 1 (Cinematic) <i class="bi bi-chevron-right"></i></a>
         <a href="home-2.html" class="offcanvas-link">Home 2 (Editorial) <i class="bi bi-chevron-right"></i></a>
-        <a href="programs.html" class="offcanvas-link active">Programs Catalog <i class="bi bi-chevron-right"></i></a>
+        <a href="programs.html" class="offcanvas-link active">All Programs <i class="bi bi-chevron-right"></i></a>
         <a href="program-details.html" class="offcanvas-link">Program Details <i class="bi bi-chevron-right"></i></a>
-        <a href="batches.html" class="offcanvas-link">Batch Schedules <i class="bi bi-chevron-right"></i></a>
-        <a href="faculty.html" class="offcanvas-link">Faculty Team <i class="bi bi-chevron-right"></i></a>
+        <a href="batches.html" class="offcanvas-link">Batches <i class="bi bi-chevron-right"></i></a>
+        <a href="faculty.html" class="offcanvas-link">Faculty Roster <i class="bi bi-chevron-right"></i></a>
         <a href="faculty-details.html" class="offcanvas-link">Faculty Profile <i class="bi bi-chevron-right"></i></a>
-        <a href="about.html" class="offcanvas-link">About Institute <i class="bi bi-chevron-right"></i></a>
+        <a href="about.html" class="offcanvas-link">About <i class="bi bi-chevron-right"></i></a>
         <a href="testimonials.html" class="offcanvas-link">Testimonials <i class="bi bi-chevron-right"></i></a>
-        <a href="contact.html" class="offcanvas-link">Contact & Location <i class="bi bi-chevron-right"></i></a>
+        <a href="contact.html" class="offcanvas-link">Contact <i class="bi bi-chevron-right"></i></a>
       </nav>
     </div>
     <div class="offcanvas-footer">
-      <a href="contact.html" class="btn btn-primary" style="width: 100%;"><span>Enroll Now</span><i class="bi bi-arrow-right"></i></a>
+      <div class="drawer-actions">
+        <button class="toggle-btn rtl-toggle" aria-label="Toggle RTL/LTR" title="Switch text direction">
+          <span class="rtl-text" style="font-size: 0.75rem; font-weight: 700;">RTL</span>
+        </button>
+        <button class="toggle-btn theme-toggle" aria-label="Toggle Dark/Light Mode" title="Toggle theme">
+          <i class="bi bi-moon-stars-fill"></i>
+        </button>
+      </div>
+      <a href="contact.html" class="btn btn-primary" style="width: 100%;">
+        <span>Enroll Now</span>
+        <i class="bi bi-arrow-right"></i>
+      </a>
     </div>
   </aside>
 
@@ -106,9 +117,7 @@
     <section class="hero-home-1" style="padding-bottom: 50px;">
       <div class="container">
         <div style="max-width: 780px; margin: 0 auto; text-align: center;">
-          <div style="font-size: 0.875rem; color: var(--text-light); margin-bottom: 12px;">
-            <a href="index.html" style="color: var(--color-primary-accent);">Home</a> / <span>Programs</span>
-          </div>
+
           <span class="eyebrow"><i class="bi bi-mortarboard-fill"></i> ACCREDITED CURRICULA</span>
           <h1>Comprehensive Language & Communication Programs</h1>
           <p class="text-lead">
@@ -132,7 +141,7 @@
         <div class="grid grid-2">
           <!-- English -->
           <div class="program-card" style="--card-color: #2563eb; padding: 36px;">
-            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px;">
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 12px; margin-bottom: 16px;">
               <div class="program-flag-badge" style="margin-bottom: 0;">🇬🇧</div>
               <span class="cefr-badge">A1 to C2 Mastery</span>
             </div>
@@ -149,7 +158,7 @@
 
           <!-- French -->
           <div class="program-card" style="--card-color: #0d9488; padding: 36px;">
-            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px;">
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 12px; margin-bottom: 16px;">
               <div class="program-flag-badge" style="margin-bottom: 0;">🇫🇷</div>
               <span class="cefr-badge">DELF A1 to C1</span>
             </div>
@@ -166,7 +175,7 @@
 
           <!-- German -->
           <div class="program-card" style="--card-color: #f59e0b; padding: 36px;">
-            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px;">
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 12px; margin-bottom: 16px;">
               <div class="program-flag-badge" style="margin-bottom: 0;">🇩🇪</div>
               <span class="cefr-badge">Goethe A1 to B2/C1</span>
             </div>
@@ -183,7 +192,7 @@
 
           <!-- Spanish -->
           <div class="program-card" style="--card-color: #ef4444; padding: 36px;">
-            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px;">
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 12px; margin-bottom: 16px;">
               <div class="program-flag-badge" style="margin-bottom: 0;">🇪🇸</div>
               <span class="cefr-badge">DELE A1 to C1</span>
             </div>
@@ -217,7 +226,7 @@
             <span class="eyebrow" style="margin-bottom: 14px;">LEVEL A1 – A2</span>
             <h3>Beginner Foundation</h3>
             <p>Master basic phonetics, essential vocabulary, everyday greetings, restaurant ordering, and simple spontaneous conversations.</p>
-            <ul style="margin: 16px 0; color: var(--text-muted); font-size: 0.9rem; display: flex; flex-direction: column; gap: 8px;">
+            <ul style="margin: 16px 0; color: var(--text-muted); font-size: 0.9rem; display: flex; flex-direction: column; gap: 8px; align-items: flex-start; text-align: left;">
               <li><i class="bi bi-check-circle-fill text-primary"></i> 500+ Essential Vocab Words</li>
               <li><i class="bi bi-check-circle-fill text-primary"></i> Correct Pronunciation Foundation</li>
               <li><i class="bi bi-check-circle-fill text-primary"></i> Routine Travel Conversations</li>
@@ -229,7 +238,7 @@
             <span class="eyebrow eyebrow-secondary" style="margin-bottom: 14px;">LEVEL B1 – B2</span>
             <h3>Intermediate Independence</h3>
             <p>Express opinions, debate current events, understand native podcasts, write structured essays, and work in a bilingual office.</p>
-            <ul style="margin: 16px 0; color: var(--text-muted); font-size: 0.9rem; display: flex; flex-direction: column; gap: 8px;">
+            <ul style="margin: 16px 0; color: var(--text-muted); font-size: 0.9rem; display: flex; flex-direction: column; gap: 8px; align-items: flex-start; text-align: left;">
               <li><i class="bi bi-check-circle-fill text-primary"></i> Spontaneous Speech Fluency</li>
               <li><i class="bi bi-check-circle-fill text-primary"></i> Complex Grammar & Idioms</li>
               <li><i class="bi bi-check-circle-fill text-primary"></i> Official B1/B2 Exam Readiness</li>
@@ -241,7 +250,7 @@
             <span class="eyebrow eyebrow-accent" style="margin-bottom: 14px;">LEVEL C1 – C2</span>
             <h3>Advanced & Executive Mastery</h3>
             <p>Nuanced cultural humor, executive presentations, academic research defense, and effortless native-level spontaneity.</p>
-            <ul style="margin: 16px 0; color: var(--text-muted); font-size: 0.9rem; display: flex; flex-direction: column; gap: 8px;">
+            <ul style="margin: 16px 0; color: var(--text-muted); font-size: 0.9rem; display: flex; flex-direction: column; gap: 8px; align-items: flex-start; text-align: left;">
               <li><i class="bi bi-check-circle-fill text-primary"></i> Nuanced Accent Polish</li>
               <li><i class="bi bi-check-circle-fill text-primary"></i> High-Stakes Public Speaking</li>
               <li><i class="bi bi-check-circle-fill text-primary"></i> C1/C2 Diplomas & Accreditations</li>
@@ -285,7 +294,7 @@
           </div>
 
           <div class="learner-card">
-            <div class="learner-card-image"><img src="assets/images/learners/learner-adults.jpg" alt="Adults conversing"></div>
+            <div class="learner-card-image"><img src="assets/images/learners/learner-adults.jpg" alt="Adult student studying grammar textbook" style="object-position: top;"></div>
             <div class="learner-card-body">
               <span class="learner-age-tag">Adults (18+)</span>
               <h3>Adult Conversational</h3>

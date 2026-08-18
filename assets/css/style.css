@@ -650,6 +650,13 @@ p {
   gap: 14px;
 }
 
+.drawer-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+}
+
 /* --------------------------------------------------------------------------
    8. HERO SECTION — HOME 1 (Cinematic Showcase)
    -------------------------------------------------------------------------- */
@@ -877,6 +884,13 @@ p {
   z-index: 2;
 }
 
+.faculty-showcase-grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 50px;
+  align-items: center;
+}
+
 /* --------------------------------------------------------------------------
    10. LANGUAGE PROGRAMS CARDS (English, French, German, Spanish)
    -------------------------------------------------------------------------- */
@@ -888,6 +902,8 @@ p {
   transition: all var(--transition-base);
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   position: relative;
   overflow: hidden;
   box-shadow: var(--shadow-sm);
@@ -931,7 +947,9 @@ p {
   margin-bottom: 12px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
 }
 
 .cefr-badge {
@@ -960,22 +978,33 @@ p {
   border-top: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
   margin-bottom: 24px;
+  width: 100%;
 }
 
 .program-meta-item {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
   font-size: 0.875rem;
+  text-align: center;
+  width: 100%;
 }
 
 .meta-label {
   color: var(--text-light);
+  width: auto;
+  flex-shrink: 0;
 }
 
 .meta-value {
   font-weight: 600;
   color: var(--text-main);
+  text-align: left;
+}
+
+.grid-2 .program-card .meta-label {
+  width: auto;
 }
 
 /* --------------------------------------------------------------------------
@@ -988,12 +1017,16 @@ p {
   padding: 32px 24px;
   transition: all var(--transition-base);
   box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .benefit-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-8px);
   border-color: var(--color-primary-accent);
-  box-shadow: var(--shadow-lg);
+  box-shadow: var(--shadow-xl);
 }
 
 .benefit-icon-box {
@@ -1007,6 +1040,8 @@ p {
   justify-content: center;
   font-size: 1.5rem;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .benefit-card h3 {
@@ -1033,7 +1068,7 @@ p {
 }
 
 .learner-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-8px);
   box-shadow: var(--shadow-xl);
   border-color: var(--border-color-hover);
 }
@@ -1059,6 +1094,8 @@ p {
   padding: 28px 24px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   flex: 1;
 }
 
@@ -1093,9 +1130,9 @@ p {
 }
 
 .faculty-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-8px);
   box-shadow: var(--shadow-xl);
-  border-color: var(--border-color-hover);
+  border-color: var(--color-primary-accent);
 }
 
 .faculty-image-box {
@@ -1130,6 +1167,10 @@ p {
 
 .faculty-card-body {
   padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .faculty-name {
@@ -1161,9 +1202,14 @@ p {
   box-shadow: var(--shadow-md);
   position: relative;
   transition: all var(--transition-base);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .testimonial-card:hover {
+  transform: translateY(-8px);
   border-color: var(--color-primary-accent);
   box-shadow: var(--shadow-xl);
 }
@@ -1174,6 +1220,7 @@ p {
   color: var(--color-accent);
   margin-bottom: 18px;
   font-size: 1.1rem;
+  justify-content: center;
 }
 
 .testimonial-quote {
@@ -1187,9 +1234,12 @@ p {
 .testimonial-author {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
   padding-top: 20px;
   border-top: 1px solid var(--border-color);
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
 }
 
 .author-avatar {
@@ -1203,11 +1253,13 @@ p {
 .author-info h4 {
   font-size: 1rem;
   margin-bottom: 2px;
+  font-style: normal !important;
 }
 
 .author-info p {
   font-size: 0.85rem;
   color: var(--text-light);
+  font-style: normal !important;
 }
 
 /* --------------------------------------------------------------------------
@@ -1305,13 +1357,22 @@ p {
   box-shadow: var(--shadow-sm);
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   justify-content: space-between;
   transition: all var(--transition-base);
 }
 
+.batch-card > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
 .batch-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-lg);
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-xl);
   border-color: var(--color-primary-accent);
 }
 
@@ -1332,6 +1393,17 @@ p {
 .batch-status-badge.open {
   background-color: #f0fdf4;
   color: #16a34a;
+}
+
+.batch-card .program-meta-item {
+  justify-content: center;
+  text-align: center;
+}
+
+.batch-card .meta-label {
+  width: auto;
+  flex-shrink: 0;
+  margin-right: 6px;
 }
 
 /* Comparison Table */
@@ -1679,6 +1751,103 @@ textarea.form-control {
   .hamburger-btn {
     display: flex;
   }
+  .header-actions .rtl-toggle,
+  .header-actions .theme-toggle,
+  .header-actions .btn-primary {
+    display: none !important;
+  }
+  .program-hero-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .program-hero-content .program-breadcrumbs {
+    text-align: center;
+  }
+  .program-hero-content .program-badges-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    gap: 10px;
+  }
+  .program-hero-content .text-lead {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .program-hero-content .btn-group {
+    justify-content: center;
+  }
+  .faculty-hero-content,
+  .about-hero-content {
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .faculty-hero-content h1,
+  .about-hero-content h1 {
+    text-align: center !important;
+  }
+  .faculty-hero-content .text-lead,
+  .about-hero-content .text-lead {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+  }
+  .faculty-hero-stats {
+    justify-content: center !important;
+  }
+  .faculty-hero-content .btn-group {
+    justify-content: center !important;
+  }
+}
+
+/* Specific Tablet & 1024px alignment changes (641px to 1024px) */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .hero-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-content .text-lead {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-content .btn-group {
+    justify-content: center;
+  }
+  .hero-stats-row {
+    justify-content: center;
+    width: 100%;
+  }
+  .grid-3 > *:last-child:nth-child(odd) {
+    grid-column: 1 / span 2;
+    justify-self: center;
+    width: calc(50% - 15px);
+  }
+  .hero-editorial-grid > div:first-child {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-editorial-grid > div:first-child .btn-group {
+    justify-content: center;
+  }
+  .hero-editorial-grid > div:first-child .editorial-ribbon {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .faculty-showcase-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+  .faculty-showcase-grid .btn-group {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 640px) {
@@ -1691,6 +1860,10 @@ textarea.form-control {
   .grid-2 {
     grid-template-columns: 1fr;
   }
+  .faculty-showcase-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
   .hero-home-1,
   .hero-home-2 {
     padding-top: calc(var(--header-height) + 30px);
@@ -1699,6 +1872,21 @@ textarea.form-control {
   .hero-main-image-card img,
   .editorial-image-primary {
     height: 340px;
+  }
+  .hero-stats-row {
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+  }
+  .editorial-ribbon {
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: var(--radius-lg);
+    width: 100%;
+    gap: 10px;
+  }
+  .editorial-ribbon-dot {
+    display: none;
   }
   .floating-badge {
     display: none; /* Hide heavy floating badges on small mobile screens */

@@ -111,17 +111,25 @@
       <nav class="offcanvas-nav">
         <a href="index.html" class="offcanvas-link">Home 1 (Cinematic) <i class="bi bi-chevron-right"></i></a>
         <a href="home-2.html" class="offcanvas-link active">Home 2 (Editorial) <i class="bi bi-chevron-right"></i></a>
-        <a href="programs.html" class="offcanvas-link">Programs Catalog <i class="bi bi-chevron-right"></i></a>
+        <a href="programs.html" class="offcanvas-link">All Programs <i class="bi bi-chevron-right"></i></a>
         <a href="program-details.html" class="offcanvas-link">Program Details <i class="bi bi-chevron-right"></i></a>
-        <a href="batches.html" class="offcanvas-link">Batch Schedules <i class="bi bi-chevron-right"></i></a>
-        <a href="faculty.html" class="offcanvas-link">Faculty Team <i class="bi bi-chevron-right"></i></a>
+        <a href="batches.html" class="offcanvas-link">Batches <i class="bi bi-chevron-right"></i></a>
+        <a href="faculty.html" class="offcanvas-link">Faculty Roster <i class="bi bi-chevron-right"></i></a>
         <a href="faculty-details.html" class="offcanvas-link">Faculty Profile <i class="bi bi-chevron-right"></i></a>
-        <a href="about.html" class="offcanvas-link">About Institute <i class="bi bi-chevron-right"></i></a>
+        <a href="about.html" class="offcanvas-link">About <i class="bi bi-chevron-right"></i></a>
         <a href="testimonials.html" class="offcanvas-link">Testimonials <i class="bi bi-chevron-right"></i></a>
-        <a href="contact.html" class="offcanvas-link">Contact & Location <i class="bi bi-chevron-right"></i></a>
+        <a href="contact.html" class="offcanvas-link">Contact <i class="bi bi-chevron-right"></i></a>
       </nav>
     </div>
     <div class="offcanvas-footer">
+      <div class="drawer-actions">
+        <button class="toggle-btn rtl-toggle" aria-label="Toggle RTL/LTR" title="Switch text direction">
+          <span class="rtl-text" style="font-size: 0.75rem; font-weight: 700;">RTL</span>
+        </button>
+        <button class="toggle-btn theme-toggle" aria-label="Toggle Dark/Light Mode" title="Toggle theme">
+          <i class="bi bi-moon-stars-fill"></i>
+        </button>
+      </div>
       <a href="contact.html" class="btn btn-primary" style="width: 100%;">
         <span>Enroll Now</span>
         <i class="bi bi-arrow-right"></i>
@@ -172,20 +180,7 @@
               <img src="assets/images/hero/hero-editorial.jpg" alt="Student practicing speech communication in modern studio" loading="eager" width="800" height="520">
             </div>
 
-            <div class="editorial-card-overlap">
-              <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 10px;">
-                <div style="width: 36px; height: 36px; border-radius: 8px; background: rgba(13, 148, 136, 0.15); color: var(--color-secondary); display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">
-                  <i class="bi bi-mic-fill"></i>
-                </div>
-                <div>
-                  <h4 style="font-size: 0.95rem; margin: 0;">Speech Studio Lab</h4>
-                  <small style="color: var(--text-light);">Live Active Feedback</small>
-                </div>
-              </div>
-              <p style="font-size: 0.825rem; margin: 0; line-height: 1.5; color: var(--text-muted);">
-                Overcome public speaking anxiety with personalized acoustic and conversational pacing coaching.
-              </p>
-            </div>
+
           </div>
         </div>
       </div>
@@ -247,7 +242,7 @@
         <div class="grid grid-2">
           <!-- Editorial English Track -->
           <div class="program-card" style="--card-color: #2563eb; padding: 40px;">
-            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 12px; margin-bottom: 20px;">
               <div class="program-flag-badge" style="margin-bottom: 0;">🇬🇧</div>
               <span class="cefr-badge">Levels A1 to C2</span>
             </div>
@@ -273,7 +268,7 @@
 
           <!-- Editorial French Track -->
           <div class="program-card" style="--card-color: #0d9488; padding: 40px;">
-            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 12px; margin-bottom: 20px;">
               <div class="program-flag-badge" style="margin-bottom: 0;">🇫🇷</div>
               <span class="cefr-badge">Levels A1 to C1</span>
             </div>
@@ -299,7 +294,7 @@
 
           <!-- Editorial German Track -->
           <div class="program-card" style="--card-color: #f59e0b; padding: 40px;">
-            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 12px; margin-bottom: 20px;">
               <div class="program-flag-badge" style="margin-bottom: 0;">🇩🇪</div>
               <span class="cefr-badge">Levels A1 to B2</span>
             </div>
@@ -310,7 +305,7 @@
             <div class="program-meta-list">
               <div class="program-meta-item">
                 <span class="meta-label">Focus Areas:</span>
-                <span class="meta-label">Goethe Prep, STEM Vocabulary, B1/B2</span>
+                <span class="meta-value">Goethe Prep, STEM Vocabulary, B1/B2</span>
               </div>
               <div class="program-meta-item">
                 <span class="meta-label">Duration:</span>
@@ -325,7 +320,7 @@
 
           <!-- Editorial Spanish Track -->
           <div class="program-card" style="--card-color: #ef4444; padding: 40px;">
-            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 12px; margin-bottom: 20px;">
               <div class="program-flag-badge" style="margin-bottom: 0;">🇪🇸</div>
               <span class="cefr-badge">Levels A1 to C1</span>
             </div>
@@ -400,7 +395,7 @@
          ========================================================================= -->
     <section class="section">
       <div class="container">
-        <div style="display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 50px; align-items: center;">
+        <div class="faculty-showcase-grid">
           <div class="hero-main-image-card">
             <img src="assets/images/hero/about-campus.jpg" alt="Mentors collaborating in LinguaSphere campus atrium" loading="lazy" style="height: 440px;">
           </div>

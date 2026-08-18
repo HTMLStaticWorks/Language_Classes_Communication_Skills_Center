@@ -84,18 +84,29 @@
       <nav class="offcanvas-nav">
         <a href="index.html" class="offcanvas-link">Home 1 (Cinematic) <i class="bi bi-chevron-right"></i></a>
         <a href="home-2.html" class="offcanvas-link">Home 2 (Editorial) <i class="bi bi-chevron-right"></i></a>
-        <a href="programs.html" class="offcanvas-link">Programs Catalog <i class="bi bi-chevron-right"></i></a>
+        <a href="programs.html" class="offcanvas-link">All Programs <i class="bi bi-chevron-right"></i></a>
         <a href="program-details.html" class="offcanvas-link">Program Details <i class="bi bi-chevron-right"></i></a>
-        <a href="batches.html" class="offcanvas-link">Batch Schedules <i class="bi bi-chevron-right"></i></a>
-        <a href="faculty.html" class="offcanvas-link">Faculty Team <i class="bi bi-chevron-right"></i></a>
+        <a href="batches.html" class="offcanvas-link">Batches <i class="bi bi-chevron-right"></i></a>
+        <a href="faculty.html" class="offcanvas-link">Faculty Roster <i class="bi bi-chevron-right"></i></a>
         <a href="faculty-details.html" class="offcanvas-link">Faculty Profile <i class="bi bi-chevron-right"></i></a>
-        <a href="about.html" class="offcanvas-link">About Institute <i class="bi bi-chevron-right"></i></a>
+        <a href="about.html" class="offcanvas-link">About <i class="bi bi-chevron-right"></i></a>
         <a href="testimonials.html" class="offcanvas-link">Testimonials <i class="bi bi-chevron-right"></i></a>
-        <a href="contact.html" class="offcanvas-link active">Contact & Location <i class="bi bi-chevron-right"></i></a>
+        <a href="contact.html" class="offcanvas-link active">Contact <i class="bi bi-chevron-right"></i></a>
       </nav>
     </div>
     <div class="offcanvas-footer">
-      <a href="contact.html" class="btn btn-primary" style="width: 100%;"><span>Enroll Now</span><i class="bi bi-arrow-right"></i></a>
+      <div class="drawer-actions">
+        <button class="toggle-btn rtl-toggle" aria-label="Toggle RTL/LTR" title="Switch text direction">
+          <span class="rtl-text" style="font-size: 0.75rem; font-weight: 700;">RTL</span>
+        </button>
+        <button class="toggle-btn theme-toggle" aria-label="Toggle Dark/Light Mode" title="Toggle theme">
+          <i class="bi bi-moon-stars-fill"></i>
+        </button>
+      </div>
+      <a href="contact.html" class="btn btn-primary" style="width: 100%;">
+        <span>Enroll Now</span>
+        <i class="bi bi-arrow-right"></i>
+      </a>
     </div>
   </aside>
 
@@ -106,9 +117,7 @@
     <section class="hero-home-1" style="padding-bottom: 50px;">
       <div class="container">
         <div style="max-width: 800px; margin: 0 auto; text-align: center;">
-          <div style="font-size: 0.875rem; color: var(--text-light); margin-bottom: 12px;">
-            <a href="index.html" style="color: var(--color-primary-accent);">Home</a> / <span>Contact</span>
-          </div>
+
           <span class="eyebrow"><i class="bi bi-chat-dots-fill"></i> ADMISSIONS & INQUIRIES</span>
           <h1>Get In Touch With Our Language Advisors</h1>
           <p class="text-lead">
@@ -154,6 +163,17 @@
             <h3>Center Hours</h3>
             <p style="margin-bottom: 4px;">Mon – Fri: 7:30 AM – 9:30 PM</p>
             <p style="font-weight: 600; color: var(--text-main); font-size: 0.9rem;">Sat – Sun: 9:00 AM – 6:00 PM</p>
+          </div>
+        </div>
+
+        <!-- Centered Social Media Icons -->
+        <div style="text-align: center; margin-top: 40px; display: flex; flex-direction: column; align-items: center; gap: 14px;">
+          <p style="font-size: 0.85rem; font-weight: 700; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.05em; margin: 0;">Connect With Us</p>
+          <div style="display: flex; gap: 12px; justify-content: center; align-items: center;">
+            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="social-icon" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="social-icon" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="social-icon" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
           </div>
         </div>
       </div>
@@ -276,17 +296,32 @@
           <p>Conveniently located 2 minutes from Grand Central Terminal with modern speech labs and study pods.</p>
         </div>
 
-        <div style="background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-lg);">
-          <div style="height: 380px; background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); display: flex; flex-direction: column; align-items: center; justify-content: center; color: #ffffff; padding: 24px; text-align: center; position: relative;">
-            <div style="width: 64px; height: 64px; border-radius: 50%; background: var(--color-primary-accent); display: flex; align-items: center; justify-content: center; font-size: 1.8rem; margin-bottom: 16px; box-shadow: 0 0 20px rgba(37,99,235,0.4);">
-              <i class="bi bi-geo-alt-fill"></i>
+        <div class="grid grid-2" style="align-items: stretch; gap: 30px;">
+          <!-- Left: Address card -->
+          <div style="background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: var(--radius-xl); padding: 36px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; box-shadow: var(--shadow-lg);">
+            <div style="width: 64px; height: 64px; border-radius: 50%; background: var(--color-primary-accent); display: flex; align-items: center; justify-content: center; font-size: 1.8rem; margin-bottom: 20px; box-shadow: 0 0 20px rgba(37,99,235,0.2);">
+              <i class="bi bi-geo-alt-fill" style="color: white;"></i>
             </div>
-            <h3 style="color: #ffffff; margin-bottom: 8px;">LinguaSphere Global Campus</h3>
-            <p style="color: #94a3b8; max-width: 500px; margin-bottom: 20px;">450 Lexington Avenue, Floor 14, New York, NY 10017 (Grand Central Transit Hub)</p>
-            <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-white btn-sm">
-              <i class="bi bi-map-fill"></i>
+            <h3 style="margin-bottom: 12px; color: var(--text-main);">LinguaSphere Global Campus</h3>
+            <p style="color: var(--text-muted); max-width: 320px; margin-bottom: 24px; font-size: 0.95rem; line-height: 1.6;">
+              450 Lexington Avenue, Floor 14, New York, NY 10017 (Grand Central Transit Hub)
+            </p>
+            <a href="https://maps.google.com/?q=450+Lexington+Ave,+New+York,+NY+10017" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" style="width: 100%;">
+              <i class="bi bi-map-fill" style="margin-right: 6px;"></i>
               <span>Open in Google Maps</span>
             </a>
+          </div>
+          <!-- Right: Real interactive map -->
+          <div style="border: 1px solid var(--border-color); border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-lg); min-height: 380px;">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.4287847372733!2d-73.97746942426364!3d40.75373307138766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25901cb001f35%3A0xc3f6a27e77b620b7!2s450%20Lexington%20Ave%2C%20New%20York%2C%20NY%2010017!5e0!3m2!1sen!2sus!4v1723950000000!5m2!1sen!2sus" 
+              width="100%" 
+              height="100%" 
+              style="border:0; display: block;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
           </div>
         </div>
       </div>
