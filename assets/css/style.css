@@ -1610,6 +1610,7 @@ textarea.form-control {
 
 .footer-newsletter-form {
   display: flex;
+  align-items: center;
   gap: 8px;
   margin-top: 16px;
 }
@@ -1628,6 +1629,17 @@ textarea.form-control {
 .footer-newsletter-input:focus {
   outline: none;
   border-color: var(--color-primary-accent);
+}
+
+.footer-newsletter-form .btn {
+  height: 46px !important;
+  width: 46px !important;
+  padding: 0 !important;
+  border-radius: 50% !important;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-bottom {
