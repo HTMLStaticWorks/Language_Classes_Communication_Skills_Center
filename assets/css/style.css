@@ -1219,6 +1219,11 @@ p {
   color: var(--color-primary-accent);
   font-weight: 600;
   margin-bottom: 12px;
+  line-height: 1.4;
+  min-height: 2.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .faculty-quals {
@@ -1416,6 +1421,13 @@ p {
   flex-grow: 1;
 }
 
+.batch-card h3 {
+  min-height: 2.4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .batch-card .program-meta-list {
   margin-top: auto;
   width: 100%;
@@ -1600,10 +1612,10 @@ textarea.form-control {
    18. FOOTER
    -------------------------------------------------------------------------- */
 .site-footer {
-  background-color: #0b1120;
-  color: #94a3b8;
+  background-color: var(--bg-surface-subtle);
+  color: var(--text-muted);
   padding: 80px 0 30px;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid var(--border-color);
 }
 
 .footer-grid {
@@ -1614,7 +1626,7 @@ textarea.form-control {
 }
 
 .footer-brand .brand-logo {
-  color: #ffffff;
+  color: var(--text-main);
   margin-bottom: 16px;
 }
 
@@ -1633,11 +1645,11 @@ textarea.form-control {
   width: 38px;
   height: 38px;
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.06);
+  background: rgba(0, 0, 0, 0.05);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--text-main);
+  color: var(--text-muted);
   transition: all var(--transition-fast);
 }
 
@@ -1647,8 +1659,7 @@ textarea.form-control {
   transform: translateY(-3px);
 }
 
-[data-theme="dark"] .social-icon,
-.footer-socials .social-icon {
+[data-theme="dark"] .social-icon {
   background: rgba(255, 255, 255, 0.08);
   color: #ffffff;
 }
@@ -1657,7 +1668,7 @@ textarea.form-control {
   font-family: var(--font-heading);
   font-size: 1.1rem;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--text-main);
   margin-bottom: 22px;
 }
 
@@ -1669,12 +1680,12 @@ textarea.form-control {
 
 .footer-link {
   font-size: 0.925rem;
-  color: #94a3b8;
+  color: var(--text-muted);
   transition: color var(--transition-fast);
 }
 
 .footer-link:hover {
-  color: #ffffff;
+  color: var(--color-primary-accent);
   padding-left: 4px;
 }
 
@@ -1686,12 +1697,12 @@ textarea.form-control {
 }
 
 .footer-newsletter-input {
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
   border-radius: var(--radius-pill);
   padding: 0 18px;
   height: 46px;
-  color: #ffffff;
+  color: var(--text-main);
   font-size: 0.875rem;
   flex: 1;
 }
@@ -1714,7 +1725,7 @@ textarea.form-control {
 
 .footer-bottom {
   padding-top: 30px;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid var(--border-color);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1729,7 +1740,7 @@ textarea.form-control {
 }
 
 .footer-legal-links a:hover {
-  color: #ffffff;
+  color: var(--color-primary-accent);
 }
 
 /* Back to Top Button */
